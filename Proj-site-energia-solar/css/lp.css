@@ -1,0 +1,220 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: "Source Sans Pro", sans-serif;
+    outline: none;
+    border: none;
+}
+
+img{max-width: 100%;}
+
+#main-header{
+    background-color: white;
+    width: 100%;
+    height: 130px;
+}
+#main-header img{
+    padding: 5px;
+    width: 150px;
+    height: 130px;
+    margin-left: 2%;
+}
+#header-text{
+    width: 40%;
+    float: right;
+    margin: 2% 5% 0% 0%;
+    text-align: right;
+}
+
+#principal{
+    background-image: url(../img/background-home.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin: 0;
+}
+#principal-text{
+    width: 50%;
+    height: 470px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    display: block;
+    margin: 5% 5%;
+    color: white;
+}
+#principal-text h1{
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+#principal-text h2{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding: 0.5em;
+}
+#principal-text p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+}
+#principal-text a{
+    color: white;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 10px;
+    float: right;
+}
+#principal-text a:hover{
+    color:#ff9903;
+}
+#principal-b{
+    width: 32.5%;
+    height: 470px;
+    float: right;
+    background-color: #f57c00;
+    display: block;
+    margin: 5% 5% 5% 2.5%;
+    padding: 5px;
+}
+#principal-b h3{
+    color: white;
+    text-transform: uppercase;
+    margin: 2% 2.5%;
+}
+
+.icon{
+    background-color: #ffeb3b;
+    width: 45%;
+    height: 120px;
+    margin: 2.5%;
+    float: left;
+    position: relative;
+    border-radius: 4px;
+    transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -webkit-box-shadow: 6px 7px 15px 0px rgb(221, 210, 58, 1);
+    -moz-box-shadow: 6px 7px 15px 0px rgba(221, 210, 58, 1);
+    box-shadow: 6px 7px 15px 0px rgba(221, 210, 58 , 1);
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 1%;
+}
+.icon p{
+    font-weight: bolder;
+    margin: 1%;
+    font-size: 15px;
+}
+#main-article{
+    width: 100%;
+    height: 100%;
+    background-color: #e3e3e3;
+    margin: 0%;
+    padding: 2%;
+}
+
+.article-box{
+    width: 99%;
+    height: 100%;
+    padding: 25px;
+    border-radius: 4px;
+    background-color: #f57c00;
+    margin: 1.5% auto;
+    transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -webkit-box-shadow: 6px 7px 15px 0px rgba(123,121,121,1);
+    -moz-box-shadow: 6px 7px 15px 0px rgba(123,121,121,1);
+    box-shadow: 6px 7px 15px 0px rgba(123,121,121,1);
+}
+#como-fun h1{
+    text-align: center;
+    margin: 1% auto 3% auto;
+    font-size: 30px;
+}
+#como-fun img{
+    display: block;
+    margin: 15px auto 5px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 5px solid #c0370d;   
+}
+#como-fun ul{
+    margin: 2.5% 5%;
+    font-size: large;
+    font-weight: bold;
+}
+#proj-inst{
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px;
+}
+#proj-inst h1{
+    font-size: 20px;
+    margin: 1%;
+}
+#proj-inst p{
+    margin: 1%;
+    font-size: large;
+    font-weight: 500;
+}
+#passos h1{
+    text-align: center;
+    margin: 3% auto 3% auto;
+    font-size: 30px;
+}
+#passos img{
+    display: block;
+    margin: 15px auto 5px auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 5px solid #c0370d;   
+}
+#passos ol{
+    margin: 2.5% 5%;
+    font-size: large;
+    font-weight: bold;
+}
+#rodape{
+    background-color: #c0370d;
+    width: 100%;
+    height: 70pt;
+    border: solid #ff9800 9px;
+    padding: 10pt;
+}
+#rodape p{
+    display: flex;
+    align-items: center;
+    font-size: small;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (max-width:48em){
+}
